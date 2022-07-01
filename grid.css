@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.grid-box{
+    width: 80vw;
+    margin: 10vh auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px;
+    grid-gap: 10px;
+}
+.orange{
+    grid-area: 1/1/span 2/span 4;
+    background-color: orangered;
+}
+.yellow{
+    grid-area: 1/5/span 2/span 2;
+    background-color: yellow;
+}
+.green{
+    grid-area: 3/1/span 2/span 3;
+    background-color: green;
+}
+.blue1{
+    grid-area: 3/4/span 1/span 3;
+    background-color: deepskyblue;
+}
+.blue2{
+    grid-area: 4/4/span 1/span 3;
+    background-color: deepskyblue;
+}
