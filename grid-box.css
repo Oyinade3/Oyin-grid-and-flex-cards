@@ -8,14 +8,14 @@ body{
 }
 .grid-box{
     display: grid;
-    grid-template-areas: 'or or or or or yl yl' 'g g g b1 b1 b1 b1' 'g g g b2 b2 b2 b2';
+    grid-template-areas: 'o o o o o yl yl' 'g g g b1 b1 b1 b1' 'g g g b2 b2 b2 b2';
     gap: 15px;
 }
 .grid-box div{
     padding: 50px;
 }
 .orange{
-    grid-area: or;
+    grid-area: o;
     background-color: orangered;
     height: 200px;
 }
